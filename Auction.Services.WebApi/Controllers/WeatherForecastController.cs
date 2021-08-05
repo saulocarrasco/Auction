@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Auction.Services.Api.Controllers
+namespace Auction.Services.WebApi.Controllers
 {
     [ApiController]
     [Route("[controller]")]

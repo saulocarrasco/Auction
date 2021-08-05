@@ -7,7 +7,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Auction.Services.Api
+namespace Auction.Services.WebApi
 {
     public class Program
     {

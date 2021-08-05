@@ -1,5 +1,4 @@
-﻿using Auction.Domain.Dtos;
-using Auction.Domain.Dtos.Request;
+﻿using Auction.Domain.Dtos.Request;
 using Auction.Domain.Dtos.Response;
 using System;
 using System.Collections.Generic;
