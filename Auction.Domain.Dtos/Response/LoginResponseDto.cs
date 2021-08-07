@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Auction.Domain.Dtos.Response
 {
-    public class OperationResultDto
+    public class LoginResponseDto : OperationResultDto
     {
-        public bool IsSuccess { get; set; }
-        public IEnumerable<string> Errors { get; set; }
+        public string Token { get; set; }
+        public DateTimeOffset ExpiresAt { get; set; }
     }
 }

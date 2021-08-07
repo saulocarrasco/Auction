@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Auction.Domain.Dtos.Request
 {
-    public class CreateBitRequestDto
+    public class UserCredentialsDto
     {
-        public int ProductId { get; set; }
-        public bool Active { get; set; }
+        public string UserName { get; set; }
+        public string PassWord { get; set; }
     }
 }

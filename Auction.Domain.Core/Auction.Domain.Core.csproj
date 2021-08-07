@@ -5,8 +5,20 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Config\" />
     <Folder Include="Validators\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="6.2.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.8" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.12.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Auction.DataAccess.Infrastructure\Auction.DataAccess.Infrastructure.csproj" />
+    <ProjectReference Include="..\Auction.Domain.Contracts\Auction.Domain.Contracts.csproj" />
+    <ProjectReference Include="..\Auction.Domain.Dtos\Auction.Domain.Dtos.csproj" />
   </ItemGroup>
 
 </Project>

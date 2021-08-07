@@ -4,12 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Auction.Domain.Core.Models
+namespace Auction.Domain.Infrastructure.Models
 {
-    public class Bit : EntityBaseModel
+    public class BitConfiguration : EntityBaseModel
     {
+        public int MaxAmount { get; set; }
         public int UserId { get; set; }
-        public decimal MaximumBidAmount { get; set; }
-        public bool AutoBidding { get; set; }
     }
 }

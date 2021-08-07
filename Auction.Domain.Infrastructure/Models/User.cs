@@ -4,14 +4,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Auction.Domain.Core.Models
+namespace Auction.Domain.Infrastructure.Models
 {
     public class User : EntityBaseModel
     {
         public int UserRoleId { get; set; }
         public string UserName { get; set; }
+        public string Password { get; set; }
         public string Name { get; set; }
-        public virtual Bit UserRole { get; set; }
-        public virtual IEnumerable<Sale> Auctions { get; set; }
+        public BitConfiguration BitConfiguration { get; set; }
+        public virtual UserRole UserRole { get; set; }
+        public virtual IEnumerable<Offer> Auctions { get; set; }
     }
 }

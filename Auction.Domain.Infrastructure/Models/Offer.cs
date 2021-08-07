@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Auction.Domain.Core.Models
+namespace Auction.Domain.Infrastructure.Models
 {
-    public class Sale : EntityBaseModel
+    public class Offer : EntityBaseModel
     {
         public DateTime EndDate { get; set; }
         public int UserId { get; set; }
