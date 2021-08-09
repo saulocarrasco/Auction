@@ -37,12 +37,12 @@ namespace Auction.Domain.Core.Services
                     {
                         Errors = new[]
                         {
-                        "Incorrect credentials"
-                    }
+                            "Incorrect credentials"
+                        }
                     };
                 }
             }
-            catch (Exception)
+            catch (Exception ex)
             {
                 return new LoginResponseDto
                 {
