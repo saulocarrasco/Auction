@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Auction.Domain.Core.Models
+namespace Auction.Domain.Infrastructure.Models
 {
     public abstract class EntityBaseModel
     {

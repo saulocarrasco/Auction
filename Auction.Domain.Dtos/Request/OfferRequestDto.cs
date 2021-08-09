@@ -6,9 +6,8 @@ using System.Threading.Tasks;
 
 namespace Auction.Domain.Dtos.Request
 {
-    public class CreateBitRequestDto
+    public class OfferRequestDto
     {
-        public int ProductId { get; set; }
-        public bool Active { get; set; }
+
     }
 }

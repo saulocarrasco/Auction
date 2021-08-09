@@ -6,10 +6,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Auction.Domain.Contracts.Services
+namespace Auction.Domain.Core.Services
 {
-    public interface IBitService
+    public interface ITokenService
     {
-        Task<CreateBitResponseDto> CreateBitAsync(CreateBitRequestDto request);
+        LoginResponseDto GetToken(UserCredentialsDto userIdentityDto);
     }
 }

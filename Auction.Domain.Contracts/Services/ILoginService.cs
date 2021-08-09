@@ -8,8 +8,8 @@ using System.Threading.Tasks;
 
 namespace Auction.Domain.Contracts.Services
 {
-    public interface IBitService
+    public interface ILoginService
     {
-        Task<CreateBitResponseDto> CreateBitAsync(CreateBitRequestDto request);
+        Task<LoginResponseDto> GetUserAsync(UserCredentialsDto request);
     }
 }

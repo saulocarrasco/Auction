@@ -6,9 +6,7 @@ using System.Threading.Tasks;
 
 namespace Auction.Domain.Dtos.Response
 {
-    public class OperationResultDto
+    public class OfferResponseDto : OperationResultDto
     {
-        public bool IsSuccess { get; set; }
-        public IEnumerable<string> Errors { get; set; }
     }
 }
